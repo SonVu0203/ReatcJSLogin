@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 1em;
+    font-family: sans-serif;
+  }
+  .row{
+    margin-top: 2%;
+  }
+  .btnRound {
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    width: 130px;
+    border-radius: 35px !important;
+  }
+  .checkForm{
+    width: 30rem;
+  }
+  span{
+    font-size: smaller; 
+  }
+  #avatar{
+        width: 15vw;
+        height: 15vw;
+  }
+  @media (max-width:768px) {
+    #avatar {
+        width: 90vw;
+        height: 90vw;
+    }
+  }
+  @media (max-width:235px) {
+    #avatar {
+        width: 90vw;
+        height: 90vw;
+    }
+  }
+  .alert{
+    margin-top:2%;
+  }
+  .FormFeedback{
+    margin-right: 2%;
+  }
+  .classButton{
+    margin-top: 2.5%;
+  }
+  .valid-feedback.feedback-icon {
+    position: absolute;
+    width: auto;
+    bottom: 0.6rem;
+    right: 0.5rem;
+    margin-top: 0;
+  }
+  .invalid-feedback.feedback-icon {
+      position: absolute;
+      width: auto;
+      bottom: 2.1rem;
+      right: 0.5rem;
+      margin-top: 0.2rem;
+  }
+  #Modal-Edit {
+    margin-top: 0rem !important;
+    float: right !important;
+    height: 100% !important;
+    min-width: 50% !important;
+  }
+ .modal-content{
+   height: 100% !important;
+   padding-top: 1rem !important;
+   padding-left: 3rem !important;
+ }
+.arrow{
+  background-color: red !important;
+  color: white;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  border-radius: 0.3rem;
+  top: 2rem;
+  left: -1rem;
+}
+  @media(max-width:768px){
+    #Modal-Edit {
+      margin-top: 0rem !important;
+      float: right !important;
+      min-height: 100% !important;
+      min-width: 100% !important;
+    }
+    
+  }
+  

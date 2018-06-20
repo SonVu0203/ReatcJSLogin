@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #eae7e7 !important;
+  }
+  .checkForm{
+    width: 21rem;
+    height: 35rem;
+    padding-top: 7rem;
+  
+  }
+  .frmLogin{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.3rem;
+    -moz-box-shadow:    0 .5rem 2rem .5rem rgba(0,0,0,.15);
+    -webkit-box-shadow: 0 .5rem 2rem .5rem rgba(0,0,0,.15);
+    box-shadow:         0 .5rem 2rem .5rem rgba(0,0,0,.15);
+  }
+  .singIn{
+    font-family: cursive !important;
+  }
+  .shadow {
+    -moz-box-shadow:    0 .5rem 2rem  rgba(0,0,0,.15);
+    -webkit-box-shadow: 0 .5rem 2rem  rgba(0,0,0,.15);
+    box-shadow:         0 .5rem 2rem  rgba(0,0,0,.15);
+  }
+  .logo{
+    font-size: 50px;
+    color: rgb(230, 130, 130);
+  }
+  #avatar{
+    width: 15vw;
+    height: 15vw;
+  }
+  .valid-feedback.feedback-icon {
+    position: absolute;
+    width: auto;
+    bottom: 0.6rem;
+    right: 0.5rem;
+    margin-top: 0;
+  }
+  .invalid-feedback.feedback-icon {
+    position: absolute;
+    width: auto;
+    right: 0.5rem;
+    top: 0.3rem;
+  }
+  .btnRound{
+    border-radius: 1rem!important;
+    width: 93%;
+  }
+  .classButton{
+    margin-top: 2.5%;
+  }
+  .bliink{
+    font-family: cursive !important;
+  }
+  a{
+    color:black !important;
+  }
+  a:hover{
+    color:black;
+    text-decoration: none !important;
+  }
+  
